@@ -51,72 +51,72 @@ var curday = function(ap){
     console.log(curday('/'));
     console.log(curday('-'));
 
-// //  progrm 3
+//  progrm 3
 
-// //     Write a JavaScript function to get the number of days in a month.   
+//     Write a JavaScript function to get the number of days in a month.   
 
-// // Test Data :
-// // console.log(getDaysInMonth(1, 2012));
-// // console.log(getDaysInMonth(2, 2012));
-// // console.log(getDaysInMonth(9, 2012));
-// // console.log(getDaysInMonth(12, 2012));
-// // Output :
-// // 31
-// // 29
-// // 30
-// // 31
+// Test Data :
+// console.log(getDaysInMonth(1, 2012));
+// console.log(getDaysInMonth(2, 2012));
+// console.log(getDaysInMonth(9, 2012));
+// console.log(getDaysInMonth(12, 2012));
+// Output :
+// 31
+// 29
+// 30
+// 31
 
-// var getDaysInMonth = function(month,year) {
+var getDaysInMonth = function(month,year) {
 
-//    return new Date(year, month, 0).getDate();
+   return new Date(year, month, 0).getDate();
 
-//   };
-//   console.log(getDaysInMonth(1, 2012));
-//   console.log(getDaysInMonth(2, 2012));
-//   console.log(getDaysInMonth(9, 2012));
-//   console.log(getDaysInMonth(12, 2012));
+  };
+  console.log(getDaysInMonth(1, 2012));
+  console.log(getDaysInMonth(2, 2012));
+  console.log(getDaysInMonth(9, 2012));
+  console.log(getDaysInMonth(12, 2012));
 
-// // program 4
-// //   Write a JavaScript function to get the month name from a particular date.   
+// program 4
+//   Write a JavaScript function to get the month name from a particular date.   
 
-// // Test Data :
-// // console.log(month_name(new Date("10/11/2009")));
-// // console.log(month_name(new Date("11/13/2014")));
-// // Output :
-// // "October"
-// // "November"
+// Test Data :
+// console.log(month_name(new Date("10/11/2009")));
+// console.log(month_name(new Date("11/13/2014")));
+// Output :
+// "October"
+// "November"
   
-// var month_name = function(dt){
-//     mlist = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
-//       return mlist[dt.getMonth()];
-//     };
-//     console.log(month_name(new Date("10/11/2009")));
-//     console.log(month_name(new Date("11/13/2014")));
+var month_name = function(dt){
+    mlist = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+      return mlist[dt.getMonth()];
+    };
+    console.log(month_name(new Date("10/11/2009")));
+    console.log(month_name(new Date("11/13/2014")));
 
 
-// // program 5
+// program 5
 
-// //     Write a JavaScript function to compare dates (i.e. greater than, less than or equal to).   
+//     Write a JavaScript function to compare dates (i.e. greater than, less than or equal to).   
 
-// // Test Data :
-// // console.log(compare_dates(new Date('11/14/2013 00:00'), new Date('11/14/2013 00:00')));
-// // console.log(compare_dates(new Date('11/14/2013 00:01'), new Date('11/14/2013 00:00')));
-// // console.log(compare_dates(new Date('11/14/2013 00:00'), new Date('11/14/2013 00:01')));
-// // Output :
-// // "Date1 = Date2"
-// // "Date1 > Date2"
-// // "Date2 > Date1"
+// Test Data :
+// console.log(compare_dates(new Date('11/14/2013 00:00'), new Date('11/14/2013 00:00')));
+// console.log(compare_dates(new Date('11/14/2013 00:01'), new Date('11/14/2013 00:00')));
+// console.log(compare_dates(new Date('11/14/2013 00:00'), new Date('11/14/2013 00:01')));
+// Output :
+// "Date1 = Date2"
+// "Date1 > Date2"
+// "Date2 > Date1"
 
 
-// var compare_dates = function(date1,date2){
-//     if (date1>date2) return ("Date1 > Date2");
-//   else if (date1<date2) return ("Date2 > Date1");
-//   else return ("Date1 = Date2"); 
-//  }
+var compare_dates = function(date1,date2){
+    if (date1>date2) return ("Date1 > Date2");
+  else if (date1<date2) return ("Date2 > Date1");
+  else return ("Date1 = Date2"); 
+ }
 
-// console.log(compare_dates(new Date('12/18/2021 00:00'), new Date('12/18/2021 00:00')));
-// console.log(compare_dates(new Date('12/18/2021 00:01'), new Date('12/18/2021 00:00')));
-// console.log(compare_dates(new Date('12/18/2021 00:00'), new Date('12/18/2021 00:01')));
+console.log(compare_dates(new Date('12/18/2021 00:00'), new Date('12/18/2021 00:00')));
+console.log(compare_dates(new Date('12/18/2021 00:01'), new Date('12/18/2021 00:00')));
+console.log(compare_dates(new Date('12/18/2021 00:00'), new Date('12/18/2021 00:01')));
 
 
 // // programk 6
